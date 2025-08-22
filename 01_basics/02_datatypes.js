@@ -11,6 +11,7 @@ console.log(3+3) //right way
 let  name = "Rahul"
 let age = 21
 let isLoggedIn = false
+let states = null //the null type has exactly one value called null
 
 //Premitive datatypes
 //number => 2 to the power 53
@@ -20,7 +21,7 @@ let isLoggedIn = false
 //null => standalone value -->representation of empty value
 //undefined => 
 // symbol => unique
-
+console.log(states)
 //object
 console.log(typeof(name))
 console.log(typeof age)
