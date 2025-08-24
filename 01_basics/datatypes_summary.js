@@ -22,9 +22,9 @@ let userEmail;
 const id =Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+//console.log(id === anotherId);
 const bigNumber = 457896521232n
-console.log(typeof bigNumber);
+//console.log(typeof bigNumber);
 
 
 /*  2 === "2"   // false (number !== string)
@@ -36,6 +36,7 @@ console.log(typeof bigNumber);
 
 //array in square bracket [] and objects in curly Braces {}
 
+/*
 const heros = ["Biraj", "jharna", "Dilip"]
 
 let myObj =
@@ -52,5 +53,33 @@ let myFunction = function(){
 console.log(typeof userEmail);
 console.log(typeof myFunction);
 console.log(typeof myObj);
+*/
 
+/*
+function greet(name, mood) {
+  console.log(`Hello ${name} 👋, I am ${mood} 😎`);
+}
+
+greet("Himani", "getting bored");
+
+*/
+
+
+//on premitive variable this     will happen
+let myBlankName = "ShyamBhurtel"
+let anotherName = myBlankName
+anotherName = "Shivalal"
+console.log(anotherName); //shivalal
+console.log(myBlankName) // Shyamlam
+
+
+//on object heap memory will work as storage
+let userOne = {
+    email : "user@google.com",
+    upi : "pubn@oksbi"
+}
+let userTwo = userOne
+userTwo.email = "ashish@google.com"
+console.log(userOne.email);
+console.log(userTwo.email)
 
