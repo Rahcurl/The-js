@@ -64,6 +64,8 @@ greet("Himani", "getting bored");
 
 */
 
+//stack(primitive) and heap(non-primitive)
+
 
 //on premitive variable this     will happen
 let myBlankName = "ShyamBhurtel"
